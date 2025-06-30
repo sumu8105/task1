@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Developer B might write:
 # greeting_prefix = "Hi there"
-greeting_prefix = "Hey ,Hi "  # This is the line to change during conflict demo
+greeting_prefix = "hello welcome"  # This is the line to change during conflict demo
 # === CONFLICT END ===
 
 with open("index.html") as f:
